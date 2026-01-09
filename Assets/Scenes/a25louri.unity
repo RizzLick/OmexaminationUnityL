@@ -9563,6 +9563,7 @@ GameObject:
   - component: {fileID: 942846320}
   - component: {fileID: 942846319}
   - component: {fileID: 942846323}
+  - component: {fileID: 942846324}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -9813,11 +9814,37 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 9da4657a-6e58-4714-84ed-4f91bb12fa62
     m_ActionName: 'Player/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: daa4570a-03c8-457d-a110-8e14840e8c1d
+    m_ActionName: 'Player/AniW[/Keyboard/d]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &942846324
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942846316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68aa3fc6de744da408840370f543631f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1162569146 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5772574263214768615, guid: b92bd8024e4c71640b9cee09ac61fc0f, type: 3}
@@ -16170,5 +16197,5 @@ SceneRoots:
   - {fileID: 681084736}
   - {fileID: 1695636137}
   - {fileID: 1216504224}
-  - {fileID: 942846318}
   - {fileID: 1442709001}
+  - {fileID: 942846318}
